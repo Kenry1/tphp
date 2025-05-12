@@ -1,3 +1,6 @@
 [build]
-  command = "npm install"
+  command = "npm install --force"
   publish = "_site"
+
+[build.environment]
+  FORCE_REBUILD = "true"
