@@ -1,0 +1,3 @@
+[build]
+  command = "mise install && bundle exec jekyll build"
+  publish = "_site"
