@@ -1,5 +1,5 @@
 [build]
-  command = "gem update --system && npm install --force && mise install && bundle exec jekyll build"
+  command = "gem install bundler && gem update --system && npm install --force && mise install && bundle exec jekyll build"
   publish = "_site"
 
 [build.environment]
